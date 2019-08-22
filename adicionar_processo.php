@@ -32,23 +32,36 @@
         <label>Fornecedor</label>
         <input type="text" class="form-control" name="fornecedor" placeholder="Insira nome do consumidor.">
 
-        <label>Valor</label>
-        <input type="number" class="form-control" name="valor" placeholder="Insira nome do consumidor.">
+        <div class="form-group">
+                <label>Relatores</label>
+                <select class="form-control" name="categoria">
+				  
+				  
+					        <option>-----</option>
+                  <option>Demetrius</option>
+                  <option>Edson</option>
+				          <option>Filipe</option>
+                  <option>Meriene</option>
+				          <option>Cyro</option>
+                  <option>Juliana</option>
+				          <option>Sérgio</option>
+                  <option>Fernando</option>
+				          <option>Rogério</option>
+				          <option>Cláudio</option>
+                  </select>
+        </div>
 
-        <label>Relatores</label>
-        <select class="form-control" name="relator">
-            <option >Advogado 1</option>
-            <option>Advogado 2</option>
-            <option>Advogado 3</option>
-            <option>Advogado 4</option>
-            <option>Advogado 5</option>
-            <option>Advogado 6</option>
-        </select>
-        <label>Câmara</label>
+        <label>Grau da Sessão</label>
         <select class="form-control" name="camara">
             <option >1 sessão </option>
             <option> 2 sessão </option>
         </select>
+
+        <label>Valor</label>
+        <input type="number" class="form-control" name="valor" placeholder="Insira nome do consumidor.">
+
+        
+        
         <label>Data</label>
         <input  type="date" class="form-control" name="data" placeholder="Data do julgamento." >
       </div>
